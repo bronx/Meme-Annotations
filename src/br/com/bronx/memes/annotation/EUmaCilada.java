@@ -18,5 +18,5 @@
 package br.com.bronx.memes.annotation;
 
 public @interface EUmaCilada {
-	String value() default "";
+	String quem() default "Bino";
 }

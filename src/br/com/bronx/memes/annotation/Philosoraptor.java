@@ -18,4 +18,7 @@
 package br.com.bronx.memes.annotation;
 
 public @interface Philosoraptor {
+	String afirmation() default "";
+
+	String doubt() default "";
 }
